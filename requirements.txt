@@ -1,0 +1,20 @@
+# Ml basic libraries
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+tensorflow
+
+# Ml advanced libraries
+# xgboost
+# lightgbm
+# catboost
+# hyperopt
+# optuna
+
+# MLflow
+# mlflow
+
+# FastAPI
+# fastapi
