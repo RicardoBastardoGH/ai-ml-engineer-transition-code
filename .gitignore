@@ -1,0 +1,49 @@
+# General Python files
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+venv/
+env/
+# virtualenv
+# .venv/
+
+# Editor/IDE-specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Machine Learning specific files and directories
+
+# Data
+# Raw, processed, and external data are often large and should not be version controlled
+/data/
+/datasets/
+
+# Models
+# Trained models (e.g., .pkl, .h5, .pth) should typically be stored in a separate system (like DVC or S3)
+/models/
+*.pkl
+*.h5
+*.pth
+*.sav
+
+# Experiment logs and outputs
+# Files generated during training/evaluation
+/logs/
+/results/
+runs/* # Common for tools like TensorBoard or MLflow
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Miscellaneous
+# Large or temporary files generated during experimentation
+*.tmp
+*.log
