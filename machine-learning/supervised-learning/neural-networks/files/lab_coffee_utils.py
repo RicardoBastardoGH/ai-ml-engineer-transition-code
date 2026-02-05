@@ -1,12 +1,13 @@
 import numpy as np
 import matplotlib.pyplot as plt
-plt.style.use('./deeplearning.mplstyle')
+plt.style.use('./files/deeplearning.mplstyle')
 import tensorflow as tf
 from tensorflow.keras.activations import sigmoid
 from matplotlib import cm
 import matplotlib.colors as colors
-from lab_utils_common import dlc
+# from lab_utils_common import dlc
 
+dlc = dict(dlblue = '#0096ff', dlorange = '#FF9300', dldarkred='#C00000', dlmagenta='#FF40FF', dlpurple='#7030A0', dldarkblue =  '#0D5BDC')
 def load_coffee_data():
     """ Creates a coffee roasting data set.
         roasting duration: 12-15 minutes is best
