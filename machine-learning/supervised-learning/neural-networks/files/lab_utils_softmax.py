@@ -1,11 +1,12 @@
 import numpy as np
 import matplotlib.pyplot as plt
-plt.style.use('./deeplearning.mplstyle')
+# plt.style.use('./deeplearning.mplstyle')
 import tensorflow as tf
 from IPython.display import display, Markdown, Latex
 from matplotlib.widgets import Slider
-from lab_utils_common import dlc
+# from lab_utils_common import dlc
 
+dlc = dict(dlblue = '#0096ff', dlorange = '#FF9300', dldarkred='#C00000', dlmagenta='#FF40FF', dlpurple='#7030A0', dldarkblue =  '#0D5BDC')
 
 def plt_softmax(my_softmax):
     fig, ax = plt.subplots(1,2,figsize=(8,4))
